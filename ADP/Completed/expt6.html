@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+</head>
+<body>
+    <h1 align="center">Various Hotspots in a Single Image</h1>
+    <!-- Image with the map -->
+    <img 
+        src="https://www.istockphoto.com/vector/india-map-of-black-contour-curves-of-vector-illustration-gm843969550-138106583" 
+        alt="India map" 
+        width="75%" 
+        height="auto" 
+        border="2" 
+        usemap="#image-map">
+    
+    <!-- Map definition -->
+    <map name="image-map">
+        <!-- Circular hotspot -->
+        <area 
+            shape="circle" 
+            coords="154,150,59" 
+            href="login.html" 
+            alt="Login Section">
+        
+        <!-- Polygonal hotspot -->
+        <area 
+            shape="poly" 
+            coords="272,79,357,79,351,272" 
+            href="registration.html" 
+            alt="Registration Section">
+    </map>
+</body>
+</html>
